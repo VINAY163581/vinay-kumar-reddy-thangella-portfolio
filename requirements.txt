@@ -1,0 +1,3 @@
+# This portfolio is a static HTML/CSS/JS site.
+# No third-party Python packages are required.
+# The project uses the standard library `http.server` for local preview.

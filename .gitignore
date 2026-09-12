@@ -1,0 +1,15 @@
+# Local Python environment used only for `python -m http.server` previews
+.venv/
+__pycache__/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Image-generation prompts — working notes, not used by the website
+assets/projects/*.md
+assets/vinay-kumar-reddy-professional-portrait.prompt.txt
+
+# Unused high-resolution original; the site loads the .jpeg version
+assets/vinay-kumar-reddy-professional-portrait.png

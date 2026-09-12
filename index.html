@@ -1,422 +1,957 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Professional portfolio of Vinay Kumar Reddy Thangella, a data scientist and data engineer with expertise in machine learning, cloud platforms, analytics, and AI-driven product development."
+      content="Portfolio of Vinay Kumar Reddy Thangella, a Data and AI Engineer building reliable data platforms and intelligent systems."
     />
-    <title>Vinay Kumar Reddy Thangella | Data Scientist & Data Engineer</title>
+    <meta name="theme-color" content="#ffffff" />
+    <title>Vinay Kumar Reddy Thangella | Data &amp; AI Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=robot-motion-3" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a href="#top" class="brand" aria-label="Vinay Kumar Reddy Thangella home">
-          <span class="brand-mark">V</span>
-          <span class="brand-text">Vinay Kumar Reddy</span>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+    <header class="site-header" id="site-header">
+      <div class="site-shell header-inner">
+        <a class="brand" href="#home" aria-label="Vinay Kumar Reddy Thangella home">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-side">VKR</span><span class="brand-slash">//</span><span class="brand-side brand-side-last">T</span><i></i>
+          </span>
         </a>
 
-        <nav class="main-nav" aria-label="Main navigation">
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a class="active" href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#education">Education</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#resume">Resume</a>
           <a href="#contact">Contact</a>
         </nav>
 
-        <a class="button button-outline nav-cta" href="#contact">Hire Me</a>
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 15.2A8.6 8.6 0 0 1 8.8 3.6 8.6 8.6 0 1 0 20.4 15.2Z"></path></svg>
+          </button>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open navigation menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
       </div>
+
+      <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <main id="top">
-      <section class="hero section">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Data Scientist • Data Engineer • AI Enthusiast</p>
-            <h1>
-              Building data-driven solutions that turn
-              <span>complex problems</span>
-              into measurable impact.
-            </h1>
-            <p class="lead">
-              I’m Vinay Kumar Reddy Thangella, a graduate student in Electrical and
-              Computer Engineering at Concordia University and a professional data
-              scientist/data engineer with hands-on experience in machine learning,
-              cloud data platforms, ETL pipelines, and AI-powered analytics.
+    <main id="main-content" tabindex="-1">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-radial" aria-hidden="true"></div>
+        <div class="hero-dots" aria-hidden="true"></div>
+        <div class="site-shell hero-grid">
+          <div class="hero-copy" data-reveal="left">
+            <h1 id="hero-title">Vinay Kumar Reddy <span>Thangella.</span></h1>
+            <p class="hero-credentials">Data &amp; AI Engineer | Data Engineering | Data Analytics | Machine Learning | AI Engineering | Cloud (AWS &amp; Azure) | Databricks | Snowflake | 3x Microsoft Azure Certified | Ex-ECSGA | Ex-Cognizant</p>
+            <p class="hero-summary">
+              I design and build scalable data platforms and production machine
+              learning systems across Azure and AWS. From distributed Spark
+              pipelines and cloud data warehouses to deployed, explainable models
+              and deep learning for computer vision and NLP, I deliver reliable
+              solutions that help organizations make confident decisions.
+              Currently, I am expanding into Physical AI, building autonomous
+              robotics, drone, and driving systems.
             </p>
-
-            <div class="hero-actions">
-              <a class="button button-primary" href="#projects">View Projects</a>
-              <a class="button button-secondary" href="#experience">Work Experience</a>
+            <div class="button-row">
+              <a class="button button-primary" href="https://www.linkedin.com/in/vinay-kumar-reddy-thangella-7828a11a7/" target="_blank" rel="noreferrer">View LinkedIn profile <span aria-hidden="true">↗</span></a>
+              <a class="button button-outline" href="#contact">Let’s connect</a>
             </div>
-
-            <ul class="hero-metrics" aria-label="Key highlights">
-              <li>
-                <strong>2+ years</strong>
-                <span>Industry experience</span>
-              </li>
-              <li>
-                <strong>5+</strong>
-                <span>Data/AI projects</span>
-              </li>
-              <li>
-                <strong>Cloud & AI</strong>
-                <span>AWS • Azure • Databricks</span>
-              </li>
-            </ul>
           </div>
 
-          <div class="hero-panel" aria-label="Professional profile card">
-            <div class="profile-card">
-              <div class="profile-avatar">V</div>
-              <div class="profile-body">
-                <p class="role">Data Scientist / Data Engineer</p>
-                <h2>Vinay Kumar Reddy Thangella</h2>
-                <p class="meta">Montreal, QC • Open to full-time roles</p>
-              </div>
-            </div>
+          <div class="hero-art" data-reveal="right">
+            <div class="orbit orbit-a" aria-hidden="true"></div>
+            <div class="orbit orbit-b" aria-hidden="true"></div>
+            <div class="hero-robot-slot" id="hero-robot">
+              <svg class="hero-robot" viewBox="0 0 360 330" fill="none" aria-hidden="true" focusable="false">
+                <defs>
+                  <linearGradient id="robot-shell" x1="116" y1="65" x2="249" y2="243" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#fff" /><stop offset=".48" stop-color="#e7f1f7" /><stop offset="1" stop-color="#a6bdcf" />
+                  </linearGradient>
+                  <linearGradient id="robot-edge" x1="113" y1="120" x2="248" y2="284" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#b7d0df" /><stop offset="1" stop-color="#5c7895" />
+                  </linearGradient>
+                  <linearGradient id="robot-visor" x1="129" y1="85" x2="228" y2="143" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#203e55" /><stop offset="1" stop-color="#0b1828" />
+                  </linearGradient>
+                  <linearGradient id="robot-light" x1="146" y1="104" x2="146" y2="125" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#b6f7ff" /><stop offset="1" stop-color="#45bce9" />
+                  </linearGradient>
+                  <radialGradient id="robot-ground">
+                    <stop stop-color="#38a9e2" stop-opacity=".24" /><stop offset="1" stop-color="#38a9e2" stop-opacity="0" />
+                  </radialGradient>
+                </defs>
 
-            <div class="mini-stats">
-              <div>
-                <span class="stat-label">Current focus</span>
-                <strong>Machine Learning & Applied AI</strong>
-              </div>
-              <div>
-                <span class="stat-label">Education</span>
-                <strong>M.Eng. in Electrical & Computer Engineering</strong>
-              </div>
-              <div>
-                <span class="stat-label">Certifications</span>
-                <strong>Azure Fundamentals • Data Fundamentals • Fabric Analytics Engineer</strong>
-              </div>
+                <ellipse class="robot-shadow" cx="180" cy="312" rx="93" ry="14" fill="url(#robot-ground)" />
+                <g class="robot-float">
+                  <!-- Feet and neck sit behind the sculpted body. -->
+                  <rect x="139" y="249" width="31" height="37" rx="14" fill="url(#robot-edge)" />
+                  <rect x="190" y="249" width="31" height="37" rx="14" fill="url(#robot-edge)" />
+                  <path d="M134 278h35v10a9 9 0 0 1-9 9h-27a8 8 0 0 1-8-8 11 11 0 0 1 9-11Z" fill="url(#robot-shell)" stroke="#9eb8cc" />
+                  <path d="M191 278h35a11 11 0 0 1 9 11 8 8 0 0 1-8 8h-27a9 9 0 0 1-9-9Z" fill="url(#robot-shell)" stroke="#9eb8cc" />
+                  <rect x="163" y="151" width="34" height="29" rx="10" fill="url(#robot-edge)" />
+
+                  <g class="robot-arm-rest">
+                    <circle cx="118" cy="189" r="15" fill="#6b8ba5" />
+                    <path d="m110 184-12 3c-11 9-18 27-17 42a12 12 0 0 0 23 3l17-30c4-9-1-18-11-18Z" fill="url(#robot-shell)" stroke="#9eb8cc" />
+                    <path d="m85 231 12 4" stroke="#38a9e2" stroke-width="4" stroke-linecap="round" />
+                  </g>
+
+                  <g class="robot-arm-wave">
+                    <circle cx="243" cy="190" r="15" fill="#6b8ba5" />
+                    <path d="M246 200c19-7 34-25 40-43l-17-9c-9 14-16 21-28 28-10 6-7 22 5 24Z" fill="url(#robot-shell)" stroke="#9eb8cc" />
+                    <rect x="270" y="145" width="19" height="14" rx="6" transform="rotate(21 270 145)" fill="#38a9e2" />
+                    <path d="m272 147-10-18a5 5 0 0 1 8-6l5 6-2-24a5 5 0 0 1 10-1l2 18 4-26a5 5 0 0 1 10 2l-3 25 7-18a5 5 0 0 1 9 4l-8 22 8-8a5 5 0 0 1 7 7l-18 23c-6 8-24 7-29-6Z" fill="url(#robot-shell)" stroke="#9eb8cc" stroke-linejoin="round" />
+                    <path d="m282 136 5 7 9-2" stroke="#b0c7d7" stroke-width="2" stroke-linecap="round" />
+                  </g>
+
+                  <path d="M144 172h72c17 0 29 13 27 30l-5 38c-2 18-16 30-34 30h-48c-18 0-32-12-34-30l-5-38c-2-17 10-30 27-30Z" fill="url(#robot-shell)" stroke="#9eb8cc" />
+                  <path d="M144 179h71" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".85" />
+                  <rect x="142" y="194" width="76" height="43" rx="12" fill="url(#robot-visor)" stroke="#8daabc" />
+                  <text x="180" y="221" text-anchor="middle" fill="#9ee9ff" font-family="'Montserrat', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2">HELLO</text>
+                  <circle cx="167" cy="251" r="2.5" fill="#6b8ba5" />
+                  <circle cx="180" cy="251" r="2.5" fill="#6b8ba5" />
+                  <circle cx="193" cy="251" r="2.5" fill="#6b8ba5" />
+
+                  <g class="robot-head">
+                    <path d="M180 60V42" stroke="#9eb8cc" stroke-width="7" stroke-linecap="round" />
+                    <circle cx="180" cy="35" r="8" fill="#ff9c42" />
+                    <circle cx="178" cy="33" r="2.5" fill="#ffe0b8" />
+                    <rect x="99" y="95" width="19" height="38" rx="9.5" fill="url(#robot-edge)" />
+                    <rect x="242" y="95" width="19" height="38" rx="9.5" fill="url(#robot-edge)" />
+                    <path d="M143 59h74c21 0 37 17 37 38v27c0 22-17 39-39 39h-70c-22 0-39-17-39-39V97c0-21 16-38 37-38Z" fill="url(#robot-shell)" stroke="#9eb8cc" />
+                    <path d="M143 66h72c12 0 22 5 28 15" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9" />
+                    <rect x="119" y="82" width="122" height="66" rx="25" fill="url(#robot-visor)" stroke="#92afc2" />
+                    <path d="M133 96c3-5 8-7 15-7h63" stroke="#47677d" stroke-width="2" stroke-linecap="round" opacity=".55" />
+                    <g class="robot-eye robot-eye-left"><rect x="144" y="101" width="12" height="22" rx="6" fill="url(#robot-light)" /></g>
+                    <g class="robot-eye robot-eye-right"><rect x="204" y="101" width="12" height="22" rx="6" fill="url(#robot-light)" /></g>
+                    <path d="M171 128q9 9 18 0" stroke="#7ad9f5" stroke-width="3" stroke-linecap="round" />
+                    <circle cx="131" cy="125" r="3" fill="#ff9c42" opacity=".8" />
+                    <circle cx="229" cy="125" r="3" fill="#ff9c42" opacity=".8" />
+                  </g>
+                </g>
+              </svg>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section muted-section">
-        <div class="container two-column">
-          <div>
-            <p class="section-tag">About Me</p>
-            <h2>Data-focused problem solver with a strong foundation in engineering, analytics, and AI.</h2>
-          </div>
-          <div>
-            <p>
-              I bring together software engineering, cloud architecture, and data science
-              to build scalable systems that support business decisions and intelligent
-              automation. My experience spans data pipeline development, predictive modeling,
-              dashboarding, cloud deployment, and end-to-end ML lifecycle management.
-            </p>
-            <p>
-              I am especially motivated by opportunities where data, AI, and business
-              goals intersect—whether it is designing reliable ETL pipelines, deploying ML
-              models into production, or extracting actionable insights from large datasets.
-            </p>
-          </div>
-        </div>
-      </section>
+      <section class="section section-about" id="about" aria-labelledby="about-title">
+        <div class="site-shell">
+          <h2 class="section-title" id="about-title" data-reveal>About Me</h2>
 
-      <section id="skills" class="section">
-        <div class="container">
-          <div class="section-header">
-            <p class="section-tag">Core Competencies</p>
-            <h2>Skills across data engineering, analytics, and machine learning</h2>
-          </div>
-
-          <div class="skills-grid">
-            <div class="skill-card">
-              <h3>Programming & Data</h3>
-              <div class="pill-list">
-                <span>C</span><span>C++</span><span>Python</span><span>R</span><span>SQL</span>
-                <span>Scala</span><span>PySpark</span><span>Spark</span><span>Hadoop</span>
-                <span>Java</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
-              </div>
-            </div>
-
-            <div class="skill-card">
-              <h3>Cloud & Databases</h3>
-              <div class="pill-list">
-                <span>AWS</span><span>Azure</span><span>Databricks</span><span>MySQL</span>
-                <span>PostgreSQL</span><span>Snowflake</span><span>MongoDB</span><span>Redis</span>
-                <span>Cassandra</span><span>Neo4j</span><span>Pinecone</span>
-              </div>
-            </div>
-
-            <div class="skill-card">
-              <h3>ML / AI / NLP</h3>
-              <div class="pill-list">
-                <span>Machine Learning</span><span>Deep Learning</span><span>NLP</span>
-                <span>Computer Vision</span><span>TensorFlow</span><span>PyTorch</span>
-                <span>scikit-learn</span><span>XGBoost</span><span>LightGBM</span>
-                <span>NLTK</span><span>spaCy</span><span>Statsmodels</span>
-              </div>
-            </div>
-
-            <div class="skill-card">
-              <h3>Data Engineering</h3>
-              <div class="pill-list">
-                <span>ETL/ELT</span><span>Data Preprocessing</span><span>EDA</span>
-                <span>Feature Engineering</span><span>Apache Kafka</span><span>Airflow</span>
-                <span>Azure Data Factory</span><span>Event Hubs</span><span>Synapse</span>
-                <span>Power BI</span><span>Tableau</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="experience" class="section muted-section">
-        <div class="container">
-          <div class="section-header">
-            <p class="section-tag">Professional Experience</p>
-            <h2>Experience in cloud-native data systems and applied AI</h2>
-          </div>
-
-          <div class="timeline">
-            <article class="timeline-item">
-              <div class="timeline-date">Nov 2023 – Dec 2024</div>
-              <div class="timeline-content">
-                <h3>Data Scientist</h3>
-                <h4>Cognizant Technology Solutions, Hyderabad, Telangana</h4>
-                <ul>
-                  <li>Developed and deployed machine learning models on AWS SageMaker to support predictive analytics and data-driven decision-making.</li>
-                  <li>Performed data ingestion, cleaning, and feature engineering using AWS S3, AWS Glue, and Amazon Athena for large analytical datasets.</li>
-                  <li>Trained and evaluated models using scikit-learn, XGBoost, and LightGBM for regression and classification tasks.</li>
-                  <li>Conducted EDA and statistical analysis using pandas, NumPy, Matplotlib, and Statsmodels.</li>
-                  <li>Automated ML workflows and experiments using SageMaker Studio and SageMaker Autopilot for rapid prototyping.</li>
-                  <li>Deployed inference endpoints using AWS Lambda and EC2 and monitored performance via Amazon CloudWatch.</li>
-                  <li>Created dashboards and visualizations in Amazon QuickSight to communicate insights to stakeholders.</li>
-                </ul>
-                <div class="mini-tags">
-                  <span>Machine Learning</span><span>Predictive Analytics</span><span>Feature Engineering</span>
-                  <span>EDA</span><span>SageMaker</span><span>S3</span><span>Glue</span><span>QuickSight</span>
+          <div class="about-layout">
+            <aside class="about-sidebar" data-reveal="left">
+              <div class="profile-panel profile-panel--photo" aria-label="Vinay Kumar Reddy Thangella profile card">
+                <img class="profile-photo" src="assets/vinay-kumar-reddy-professional-portrait.jpeg" alt="Vinay Kumar Reddy Thangella" width="1122" height="1402" loading="lazy" decoding="async" />
+                <div class="profile-nameplate">
+                  <div><h3>Vinay Kumar Reddy Thangella</h3><p>Data &amp; AI Engineer</p></div>
                 </div>
               </div>
-            </article>
 
-            <article class="timeline-item">
-              <div class="timeline-date">Oct 2022 – Nov 2023</div>
-              <div class="timeline-content">
-                <h3>Associate Data Engineer</h3>
-                <h4>Cognizant Technology Solutions, Hyderabad, Telangana</h4>
-                <ul>
-                  <li>Designed and maintained scalable data pipelines on Azure, ingesting structured and unstructured data across business systems.</li>
-                  <li>Built batch and streaming pipelines using Azure Data Factory, Event Hubs, and Azure Databricks.</li>
-                  <li>Designed and optimized data warehouses in Azure Synapse Analytics to support Power BI and analytics workloads.</li>
-                  <li>Implemented ELT workflows using Azure Data Lake Storage Gen2 and Synapse SQL, improving data accessibility and reporting efficiency.</li>
-                  <li>Automated data workflows using ADF triggers, scheduling, and CI/CD with Docker, Jenkins, and GitHub.</li>
-                  <li>Worked with Cosmos DB and Azure SQL for low-latency, transactional data storage and data lake integration.</li>
-                  <li>Delivered clean, well-documented datasets for reporting and analytics teams using Power BI and Tableau.</li>
-                </ul>
-                <div class="mini-tags">
-                  <span>Azure Data Engineering</span><span>ETL/ELT</span><span>Data Factory</span><span>Databricks</span>
-                  <span>PySpark</span><span>Synapse</span><span>Cosmos DB</span><span>Power BI</span>
+              <article class="credentials-card">
+                <div class="credentials-heading">
+                  <span class="card-icon icon-primary" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
+                  </span>
+                  <h3>Credentials</h3>
                 </div>
-              </div>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-date">Apr 2022 – Aug 2022</div>
-              <div class="timeline-content">
-                <h3>Data Engineer Intern</h3>
-                <h4>Cognizant Technology Solutions, Hyderabad, Telangana</h4>
-                <ul>
-                  <li>Assisted in developing end-to-end ETL solutions with Azure Data Factory to extract data from relational databases and cloud storage into ADLS Gen2.</li>
-                  <li>Processed and transformed structured and semi-structured data using Azure Databricks with Spark and PySpark.</li>
-                  <li>Designed optimized Azure SQL and Synapse queries for reporting and ad-hoc analysis.</li>
-                  <li>Implemented data validation and preprocessing techniques using Python, pandas, and SQL to improve data quality.</li>
-                  <li>Integrated Event Hubs for near real-time ingestion from application logs and created basic Power BI dashboards.</li>
-                  <li>Worked in Agile/Scrum environments with Jira and GitHub for version control and collaborative delivery.</li>
-                </ul>
-                <div class="mini-tags">
-                  <span>Azure ETL</span><span>Data Factory</span><span>ADLS Gen2</span><span>Databricks</span>
-                  <span>PySpark</span><span>SQL</span><span>Power BI</span><span>Agile</span>
+                <div class="credentials-content">
+                  <div class="credential-block">
+                  <h4>Education</h4>
+                  <ul class="credential-list" role="list">
+                    <li>
+                      <span class="credential-icon credential-icon--education" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg>
+                      </span>
+                      <span class="credential-content">
+                        <strong>Master of Engineering, Electrical &amp; Computer Engineering</strong>
+                        <span class="credential-institution">Concordia University (2025–2027)</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="credential-icon credential-icon--education" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg>
+                      </span>
+                      <span class="credential-content">
+                        <strong>Bachelor of Technology, Electronics &amp; Communication Engineering</strong>
+                        <span class="credential-institution">Sreenidhi Institute of Science and Technology (2108-2022)</span>
+                      </span>
+                    </li>
+                  </ul>
+                  </div>
+                  <div class="credential-block">
+                  <h4>Certifications</h4>
+                  <ul class="credential-list credential-list--certifications" role="list">
+                    <li>
+                      <span class="credential-icon credential-icon--certification" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
+                      </span>
+                      <span>Microsoft Certified: Azure Fundamentals</span>
+                    </li>
+                    <li>
+                      <span class="credential-icon credential-icon--certification" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
+                      </span>
+                      <span>Microsoft Certified: Azure Data Fundamentals</span>
+                    </li>
+                    <li>
+                      <span class="credential-icon credential-icon--certification" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
+                      </span>
+                      <span>Microsoft Certified: Fabric Analytics Engineer Associate</span>
+                    </li>
+                  </ul>
+                  </div>
                 </div>
-              </div>
+              </article>
+            </aside>
+
+            <div class="about-copy" data-reveal="right">
+              <article class="story-block story-primary">
+                <p class="story-label">My journey</p>
+                <p>My journey in technology began with robotics, embedded systems, artificial intelligence, and computer vision, where I worked on research and development projects involving intelligent automation, deep learning, IoT, and engineering prototyping. This foundation sparked my interest in building technology that connects data, cloud computing, and AI to solve real-world problems.</p>
+                <p>I transitioned into Data Engineering at Cognizant, starting as a Data Engineer Intern and progressing to Associate Data Engineer. I worked on scalable data engineering and analytics solutions across Microsoft Azure, building ETL/ELT pipelines using technologies such as Azure Data Factory, Azure Databricks, Azure Synapse Analytics, Apache Spark, PySpark, Python, SQL, and Azure Data Lake Storage.</p>
+                <p>I later moved into Data Science at Cognizant, expanding my experience into machine learning and predictive analytics on AWS. I worked across the ML lifecycle, including data preparation, exploratory analysis, feature engineering, model development, evaluation, deployment, and monitoring using Amazon SageMaker, scikit-learn, XGBoost, LightGBM, pandas, NumPy, AWS Glue, Amazon S3, Athena, and QuickSight.</p>
+                <p>Today, I work as a Junior Data Engineer at PwC Canada, contributing to enterprise data and AI initiatives and strengthening my experience in building reliable, scalable, and business-focused technology solutions. My interests lie at the intersection of Cloud, Data Engineering, Artificial Intelligence, Machine Learning, and enterprise technology transformation.</p>
+                <p>Alongside my technical career, I developed leadership and stakeholder-management experience as Vice-President External of the Engineering and Computer Science Graduate Association (ECSGA) at Concordia University, collaborating with students, university stakeholders, organizations, and external partners to support community engagement and professional-development initiatives.</p>
+                <p>My academic background includes a Bachelor’s degree from Sreenidhi Institute of Science and Technology and graduate studies in Electrical and Computer Engineering at Concordia University, where I have continued strengthening my expertise in cloud computing, data, AI, and software systems.</p>
+                <p>I enjoy continuous learning, solving complex technical problems, and exploring how Cloud, Data, and AI can be used to build scalable and impactful solutions. I’m always interested in connecting with professionals across Data Engineering, Data Science, AI/ML, and Cloud Computing.</p>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-expertise" id="expertise" aria-labelledby="expertise-title">
+        <div class="site-shell">
+          <h2 class="section-title" id="expertise-title" data-reveal>Expertise</h2>
+          <div class="expertise-list">
+            <article class="expertise-entry" data-reveal>
+              <span class="expertise-node" aria-hidden="true"></span>
+              <details class="expertise-fold" open>
+                <summary>
+                  <span class="expertise-title">
+                    <strong>Data Engineering &amp; Analytics</strong>
+                  </span>
+                  <span class="expertise-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="expertise-intro">I help organizations turn high-volume raw data into analytics they can trust. This includes building batch and near-real-time ETL/ELT pipelines across Azure and AWS, engineering distributed Spark workloads that stay fast at scale, and modeling the warehouse layers that power enterprise reporting.</span>
+                </summary>
+                <div class="expertise-details">
+                  <h4>Core Competencies</h4>
+                  <ul>
+                    <li>Data Engineering</li>
+                    <li>Data Analytics</li>
+                    <li>ETL &amp; ELT Pipeline Development</li>
+                    <li>Distributed Data Processing</li>
+                    <li>Data Warehousing &amp; Modeling</li>
+                    <li>Data Quality &amp; Validation</li>
+                  </ul>
+                  <h4>Key Technologies</h4>
+                  <div class="tag-row"><span>Apache Spark</span><span>PySpark</span><span>Spark SQL</span><span>SQL</span><span>Python</span><span>Microsoft Azure</span><span>Amazon Web Services (AWS)</span><span>Apache Airflow</span><span>CI/CD</span><span>Docker</span><span>Power BI</span><span>GitHub</span><span>Jenkins</span><span>Jira</span></div>
+                </div>
+              </details>
+            </article>
+
+            <article class="expertise-entry" data-reveal>
+              <span class="expertise-node" aria-hidden="true"></span>
+              <details class="expertise-fold">
+                <summary>
+                  <span class="expertise-title">
+                    <strong>Cloud Computing</strong>
+                  </span>
+                  <span class="expertise-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="expertise-intro">I design and deploy data and AI workloads that run reliably in production on the cloud. This includes architecting solutions across Azure and AWS, containerizing services with Docker, and automating delivery through CI/CD pipelines backed by managed secrets, role-based access, and monitoring.</span>
+                </summary>
+                <div class="expertise-details">
+                  <h4>Core Competencies</h4>
+                  <ul>
+                    <li>Cloud Data Architecture</li>
+                    <li>Containerization &amp; CI/CD</li>
+                    <li>Cloud Security &amp; Access Control</li>
+                    <li>Monitoring &amp; Observability</li>
+                  </ul>
+                  <h4>Key Technologies</h4>
+                  <div class="tag-row"><span>Microsoft Azure</span><span>Amazon Web Services (AWS)</span><span>Docker</span><span>GitHub Actions</span><span>Jenkins</span><span>FastAPI</span></div>
+                </div>
+              </details>
+            </article>
+
+            <article class="expertise-entry" data-reveal>
+              <span class="expertise-node" aria-hidden="true"></span>
+              <details class="expertise-fold">
+                <summary>
+                  <span class="expertise-title">
+                    <strong>Machine Learning &amp; AI</strong>
+                  </span>
+                  <span class="expertise-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="expertise-intro">I help organizations turn data into machine learning and AI systems that deliver reliable, explainable predictions in production. This includes building and deploying regression and classification models on AWS with Amazon SageMaker, applying deep learning to computer vision, medical imaging, and multilingual NLP, and extending AI into the physical world through robotics and autonomous systems.</span>
+                </summary>
+                <div class="expertise-details">
+                  <h4>Core Competencies</h4>
+                  <ul>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>AI Engineering</li>
+                    <li>Digital AI</li>
+                    <li>Physical AI</li>
+                  </ul>
+                  <h4>Key Technologies</h4>
+                  <div class="tag-row"><span>NumPy</span><span>pandas</span><span>Python</span><span>scikit-learn</span><span>XGBoost</span><span>LightGBM</span><span>Natural Language Toolkit</span><span>TensorFlow</span><span>PyTorch</span><span>MLlib</span><span>Keras</span><span>OpenCV</span><span>Hugging Face</span><span>Amazon SageMaker</span><span>Streamlit</span></div>
+                </div>
+              </details>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="projects" class="section">
-        <div class="container">
-          <div class="section-header">
-            <p class="section-tag">Featured Projects</p>
-            <h2>Applied research and practical AI solutions</h2>
-          </div>
+      <section class="section section-portfolio" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="site-shell">
+          <h2 class="section-title" id="portfolio-title" data-reveal>Projects</h2>
 
-          <div class="project-grid">
-            <article class="project-card">
-              <div class="project-badge">Sep 2025 – Dec 2025</div>
-              <h3>Earthquake Magnitude Estimation Using Machine Learning</h3>
-              <p class="project-meta">Concordia University, Montreal, QC</p>
-              <p>
-                Developed and evaluated multiple machine learning models to estimate earthquake magnitudes using seismic features, with focus on preprocessing, feature engineering, and model comparison.
-              </p>
-              <div class="mini-tags">
-                <span>Machine Learning</span><span>Feature Engineering</span><span>Model Evaluation</span>
-              </div>
+          <div class="project-list">
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold" open>
+                <summary>
+                  <span class="project-title">
+                    <strong>CHAUSER</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>JUL 2019 — DEC 2019</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Designed and developed CHAUSER, a multidisciplinary smart shoe-rack and contactless assistance prototype aimed at improving footwear handling, security, hygiene, and automation in public environments such as temples, hospitals, offices, and gathering spaces. The system incorporated a microcontroller-based architecture with IR and ultrasonic sensors, motor drivers, side-shaft motors, relay control, and a rack-and-pinion mechanism for automated footwear handling. The project also explored ESP32-CAM and temperature-sensor integration for contactless monitoring, along with concepts for distributing masks and essential supplies during the COVID-19 pandemic. Contributed to prototype development, system-level design, CAD modelling, circuit planning, and documentation for the proposed product and design-patent application. CHAUSER was presented at the E-NNOVATE Virtual Innovation Fair held from July 6–8, 2020, where the team received a Bronze Award for the innovation.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Embedded Systems</span><span>Internet of Things (IoT)</span><span>Computer-Aided Design (CAD)</span><span>Robotics</span><span>Prototyping</span></div>
+                  <h4>Project details</h4>
+                  <p>Associated with Robotics Researcher at The Robotics Club-SNIST.</p>
+                </div>
+              </details>
             </article>
 
-            <article class="project-card">
-              <div class="project-badge">Sep 2025 – Dec 2025</div>
-              <h3>Sentiment Analysis Using Hugging Face Model</h3>
-              <p class="project-meta">Concordia University, Montreal, QC</p>
-              <p>
-                Containerized a Hugging Face-based sentiment analysis model using Docker and deployed it to Azure Web App Service with CI/CD pipelines for real-time inference and scalable automation.
-              </p>
-              <div class="mini-tags">
-                <span>Hugging Face</span><span>NLP</span><span>Docker</span><span>Azure</span><span>CI/CD</span>
-              </div>
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Women’s Safety Device with GPS Tracking and Emergency Alerts</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>JUN 2020 — JUL 2020</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed a microcontroller-based women’s safety and emergency alert system as part of an internship program conducted by the SNIST-Microchip Academy, Department of Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology during my Bachelor’s degree. Collaborated as part of a three-member team to design and implement an embedded safety device using an Arduino UNO, GPS receiver, GSM module, emergency input, and 16×2 LCD display. The system acquires and processes GPS latitude and longitude coordinates and, when the emergency mechanism is activated, sends an SMS alert containing the user’s location to a predefined emergency contact through the GSM module. Implemented GPS data processing through serial communication, LCD-based location display, and GSM communication using AT commands. The project provided hands-on experience in embedded systems, microcontroller programming, hardware-software integration, GPS/GSM interfacing, and Arduino-based prototyping while developing a compact personal-safety solution.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Arduino</span><span>Embedded Systems</span><span>Microcontrollers</span><span>Global Positioning System (GPS)</span><span>GSM</span></div>
+                  <h4>Project details</h4>
+                  <p>Associated with Robotics Researcher at The Robotics Club-SNIST.</p>
+                </div>
+              </details>
             </article>
 
-            <article class="project-card">
-              <div class="project-badge">Apr 2022 – Jun 2022</div>
-              <h3>Multimodal Image Fusion Techniques to Detect Brain Tumour Using CNN</h3>
-              <p class="project-meta">Sreenidhi Institute of Science and Technology, Hyderabad</p>
-              <p>
-                Implemented a deep CNN-based multimodal image fusion model to extract and fuse features from multiple brain imaging modalities, optimized with backpropagation and evaluated using accuracy, precision, recall, and F1-score.
-              </p>
-              <div class="mini-tags">
-                <span>Deep Learning</span><span>CNN</span><span>Computer Vision</span><span>Medical Imaging</span>
-              </div>
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Emoji Creation with Facial Emotion Detection Using CNN</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>JAN 2022 — MAR 2022</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed a real-time facial emotion recognition and emoji generation system using deep learning and computer vision. Designed and trained a Convolutional Neural Network (CNN) on the FER2013 dataset to classify facial expressions into seven emotion categories: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral. Implemented image preprocessing and Haar Cascade-based face detection using OpenCV, and developed the CNN using Python, TensorFlow, and Keras. The model incorporated convolutional layers, batch normalization, max pooling, dropout, dense layers, ReLU activation, and Softmax classification for facial emotion recognition. Integrated the trained model with a real-time webcam application to detect facial expressions, display emotion confidence scores, and automatically map the predicted emotion to a corresponding emoji. The system achieved a reported 65% validation accuracy and 73% testing accuracy. The project was also published as a research paper titled “Emoji Creation with Facial Emotion Detection Using CNN” in the International Research Journal of Modernization in Engineering Technology and Science (IRJMETS), Volume 4, Issue 03, March 2022.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Deep Learning</span><span>Computer Vision</span><span>Convolutional Neural Networks (CNN)</span><span>Python</span><span>TensorFlow</span></div>
+                  <h4>Project details</h4>
+                  <p>Associated with Robotics Researcher at The Robotics Club-SNIST.</p>
+                </div>
+              </details>
             </article>
 
-            <article class="project-card">
-              <div class="project-badge">Jan 2022 – Mar 2022</div>
-              <h3>Emoji Creation with Facial Emotion Detection Using CNN</h3>
-              <p class="project-meta">Sreenidhi Institute of Science and Technology, Hyderabad</p>
-              <p>
-                Designed and trained a CNN to detect facial emotions in real time and generate matching custom emojis, evaluated using accuracy, precision, and F1-score.
-              </p>
-              <div class="mini-tags">
-                <span>Facial Emotion Detection</span><span>CNN</span><span>Computer Vision</span><span>AI Application</span>
-              </div>
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>CNN-Based Multimodal Medical Image Fusion and Brain Tumor Detection Using YOLOv2</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>APR 2022 — JUN 2022</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed a deep learning-based medical image analysis system for brain tumor classification and localization using multimodal medical imaging. Combined Computed Tomography (CT) and Magnetic Resonance Imaging (MRI) scans through medical image fusion to integrate complementary information into a single fused image. Implemented a Convolutional Neural Network (CNN) to classify brain images as normal or abnormal and integrated YOLOv2 object detection to localize tumor regions in abnormal images. Applied image processing, image fusion, model training, and performance evaluation techniques in MATLAB, assessing the system using classification accuracy, training loss, and image-fusion metrics. The project demonstrated the application of deep learning, computer vision, and medical image processing for automated brain tumor analysis.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Deep Learning</span><span>Convolutional Neural Networks (CNN)</span><span>Computer Vision</span><span>Image Processing</span><span>MATLAB</span></div>
+                  <h4>Project details</h4>
+                  <p>Associated with Robotics Researcher at The Robotics Club-SNIST.</p>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Sentiment Analysis Using Hugging Face Model</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>SEP 2025 — DEC 2025</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed a cloud-based multilingual sentiment analysis platform as part of Concordia University’s COEN 6313 – Programming on the Cloud course. Built a secure FastAPI REST API that analyzes individual text, batch CSV files, and product reviews extracted from URLs using Hugging Face’s XLM-RoBERTa model. Integrated JWT authentication, MongoDB, Azure Blob Storage, and Azure Communication Services for secure file storage, email verification, and report delivery. Containerized the application with Docker and configured CI/CD using GitHub Actions, Azure Container Registry, and Azure Web App. The platform also generates Excel reports with sentiment charts and monitors API performance.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Python</span><span>Microsoft Azure</span><span>FastAPI</span><span>Docker</span><span>Natural Language Processing (NLP)</span></div>
+                  <h4>Project details</h4>
+                  <a href="https://github.com/saikumarcheerneni/COEN-6313-Programming_On_Cloud_Project-.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Earthquake Magnitude Estimation Using Machine Learning</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>SEP 2025 — DEC 2025</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed an end-to-end supervised machine learning solution to estimate earthquake magnitude from 5,009 historical seismic records as part of the COEN 691 course. Built a modular Python pipeline for MongoDB data ingestion, schema and data-drift validation, missing-value handling, feature scaling, categorical encoding, and model evaluation. Evaluated and tuned nine regression algorithms using three-fold grid search. The selected Random Forest model achieved a reported held-out test R² of 0.999, RMSE of 0.148, and MAE of 0.044. Incorporated SHAP-based explainability, residual analysis, and model-comparison visualizations, and integrated the trained pipeline into an interactive Streamlit prediction application.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Machine Learning</span><span>Python (Programming Language)</span><span>Scikit-Learn</span><span>Regression Analysis</span><span>Streamlit</span></div>
+                  <h4>Project details</h4>
+                  <a href="https://github.com/VINAY163581/COEN-691-Machine_Learning_Project-.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Log Analytics Using Apache Spark for Distributed Computing</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>JAN 2026 — APR 2026</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed an end-to-end distributed log analytics pipeline for the COEN 6731 Distributed Software Systems course using Apache Spark and Scala. The system processes application logs, deployment records, and host metadata to reconstruct distributed traces and user sessions. It calculates hourly and daily SLO metrics including request volume and error rate, and performs rolling-baseline anomaly detection and deployment-impact analysis. Implemented Spark DataFrames, window functions, broadcast joins, caching, configurable partitioning, and key salting to analyze and mitigate data skew. The pipeline generates reusable Parquet outputs and supports local execution and Google Cloud Dataproc workflows, with BigQuery-ready views for visualization. This project demonstrates practical experience in distributed data processing, observability analytics, scalable data pipelines, and Spark performance optimization.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Apache Spark</span><span>Scala</span><span>Distributed Computing</span><span>Data Engineering</span><span>Big Data Analytics</span></div>
+                  <h4>Project details</h4>
+                  <a href="https://github.com/Nanditha2024/Log_Analytics_Using_Apache_Spark_for_Distributed_Computing.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Graph Analytics Using Apache Spark for Distributed Computing</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>JAN 2026 — APR 2026</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed a distributed graph analytics pipeline for the COEN 6731 Distributed Software Systems course using Scala and Apache Spark. Implemented iterative PageRank with convergence tracking, exact and sampling-based triangle analysis with local clustering coefficients, temporal PageRank for measuring node-rank volatility, and salted-join optimization for handling data skew. Built configurable Spark jobs, automated CSV reporting, and an interactive Python/Plotly dashboard, with support for local and Google Cloud Dataproc execution. In a recorded benchmark involving 10,000 nodes and 105,000 edges, the pipeline identified 2,797 triangles and achieved up to a 1.5× join-performance improvement.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Apache Spark</span><span>Scala</span><span>Distributed Computing</span><span>Graph Analytics</span><span>Data Engineering</span></div>
+                  <h4>Project details</h4>
+                  <a href="https://github.com/VINAY163581/Graph_Analytics_Using_Apache_Spark_for_Distributed_Computing.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>E-commerce Analytics Using Apache Spark for Distributed Computing</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>JAN 2026 — APR 2026</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Developed an end-to-end distributed batch analytics pipeline for the COEN 6731 Distributed Software Systems course using Scala and Apache Spark. Implemented user sessionization, conversion-funnel analysis, 24-hour last-touch attribution, anomaly detection, and KPI calculations using Spark SQL and DataFrame window functions. Designed the pipeline for a synthetic workload of up to 12.75 million e-commerce records and deployment on Google Cloud Dataproc, with data stored in Google Cloud Storage and analytical outputs exported to BigQuery. Packaged the application using SBT and automated the cloud workflow through GitHub Actions.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Apache Spark</span><span>Scala</span><span>Distributed Computing</span><span>Data Engineering</span><span>Google Cloud Platform (GCP)</span></div>
+                  <h4>Project details</h4>
+                  <a href="https://github.com/VINAY163581/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Robot Motion Simulator</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>JAN 2026 — APR 2026</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="project-intro">Collaborated on the development and quality assurance of a Java-based Robot Motion Simulator for the COEN 6761 Software Testing and Validation course. The command-line application simulates robot navigation on an n × n grid, including path drawing, boundary-aware movement, state reporting, and command-history replay. Contributed to a suite of 68 automated JUnit 5 tests covering unit, integration, boundary-value, data-flow, edge-case, and regression scenarios. Used Maven for build automation, JaCoCo for coverage analysis, and PIT for mutation testing. The completed test suite achieved 100% instruction, branch, line, and method coverage.</span>
+                </summary>
+                <div class="project-details">
+                  <h4>Key Skills Used</h4>
+                  <div class="tag-row"><span>Software Testing</span><span>Test Automation</span><span>Java</span><span>JUnit</span><span>Apache Maven</span></div>
+                  <h4>Project details</h4>
+                  <a href="https://github.com/BharadwajCU-18/COEN-6761-Software-Testing-and-Validation-Project.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>End to End Data and AI Platform</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>AUG 2026 — PRESENT</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                </summary>
+                <div class="project-details">
+                  <h4>Project details</h4>
+                  <a href="https://github.com/VINAY163581/End-to-End-Data-and-AI-Platform.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Autonomous Robotics System</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>AUG 2026 — PRESENT</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                </summary>
+                <div class="project-details">
+                  <h4>Project details</h4>
+                  <a href="https://github.com/VINAY163581/Autonomous-Robotics-System.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Autonomous Drone System</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>AUG 2026 — PRESENT</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                </summary>
+                <div class="project-details">
+                  <h4>Project details</h4>
+                  <a href="https://github.com/VINAY163581/Autonomous-Drone-System.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
+            </article>
+
+            <article class="project-entry" data-reveal>
+              <span class="project-node" aria-hidden="true"></span>
+              <details class="project-fold">
+                <summary>
+                  <span class="project-title">
+                    <strong>Autonomous Driving System</strong>
+                    <span class="project-meta">
+                      <time><svg class="project-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>AUG 2026 — PRESENT</time>
+                    </span>
+                  </span>
+                  <span class="project-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                </summary>
+                <div class="project-details">
+                  <h4>Project details</h4>
+                  <a href="https://github.com/VINAY163581/Autonomous-Driving-System.git" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+                </div>
+              </details>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="education" class="section muted-section">
-        <div class="container">
-          <div class="section-header">
-            <p class="section-tag">Education</p>
-            <h2>Academic foundation in engineering and applied AI</h2>
+      <section class="section section-resume" id="resume" aria-labelledby="resume-title">
+        <div class="site-shell">
+          <h2 class="section-title" id="resume-title" data-reveal>Resume &amp; Qualifications</h2>
+          <div class="resume-tabs" role="tablist" aria-label="Resume sections" data-reveal>
+            <button class="active" id="experience-tab" type="button" role="tab" aria-selected="true" aria-controls="experience-panel">Professional Experience</button>
+            <button id="education-tab" type="button" role="tab" aria-selected="false" aria-controls="education-panel">Education &amp; Certifications</button>
           </div>
 
-          <div class="education-list">
-            <article class="education-card">
-              <div>
-                <p class="degree">Master of Engineering – Electrical and Computer Engineering</p>
-                <p class="school">Concordia University, Montreal, QC</p>
-              </div>
-              <div class="edu-meta">
-                <span>2025 – 2027 (Expected)</span>
-                <span>CGPA: 3.58/4.3</span>
-              </div>
-              <ul>
-                <li>Member of the Institute for Co-operative Education</li>
-                <li>Courses: Applied Machine Learning, Programming on Cloud, Software Engineering, Medical Image Processing, Model-Driven Software Engineering</li>
-              </ul>
-            </article>
-
-            <article class="education-card">
-              <div>
-                <p class="degree">Bachelor of Technology – Electronics and Communication Engineering</p>
-                <p class="school">Sreenidhi Institute of Science and Technology, Hyderabad, Telangana</p>
-              </div>
-              <div class="edu-meta">
-                <span>2018 – 2022</span>
-                <span>GPA: 8.68/10</span>
-              </div>
-              <ul>
-                <li>Graduated First Class with Distinction</li>
-                <li>Courses: Problem Solving Using C, Data Structures, Java Programming, Database Systems, Artificial Intelligence</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container split-section">
-          <div>
-            <p class="section-tag">Certifications</p>
-            <h2>Professional validation and technical breadth</h2>
-            <ul class="simple-list">
-              <li>Microsoft Certified: Azure Fundamentals</li>
-              <li>Microsoft Certified: Azure Data Fundamentals</li>
-              <li>Microsoft Certified: Fabric Analytics Engineer Associate</li>
-              <li>NPTEL: Programming in Java</li>
-            </ul>
-          </div>
-
-          <div>
-            <p class="section-tag">Awards & Distinctions</p>
-            <h2>Recognized for innovation and technical engagement</h2>
-            <ul class="simple-list">
-              <li>Bronze Award, E-NNOVATE Virtual Innovation Fair, July 2020</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section muted-section">
-        <div class="container split-section">
-          <div>
-            <p class="section-tag">Volunteer Experience</p>
-            <h2>Leadership and community engagement</h2>
-            <div class="volunteer-card">
-              <p class="role">Vice President - External</p>
-              <p class="school">ECSGA, Montreal, QC</p>
-              <p>June 2025 – May 2026</p>
-              <ul>
-                <li>Built and maintained relationships with external organizations to create networking and professional development opportunities for graduate students.</li>
-                <li>Promoted ECSGA events and encouraged collaboration across student communities.</li>
-              </ul>
+          <div class="resume-panel" id="experience-panel" role="tabpanel" aria-labelledby="experience-tab">
+            <div class="experience-list">
+              <details class="experience-entry" open>
+                <summary>
+                  <span class="experience-node" aria-hidden="true"></span>
+                  <span class="company-mark company-logo company-logo-pwc" aria-hidden="true"><img src="assets/experience/pwc-logo.webp" alt="" /></span>
+                  <span class="experience-title">
+                    <strong>Junior Data Engineer Intern</strong>
+                    <span class="experience-meta">
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"></path></svg>PwC Canada</span>
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Montreal, Canada</span>
+                      <time><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>May 2026 – Present</time>
+                    </span>
+                  </span>
+                  <span class="experience-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="experience-intro">Supporting scalable pipelines, cloud integration, data quality, and enterprise analytics workflows across technical and business teams.</span>
+                </summary>
+                <div class="experience-details">
+                  <h4>Skills &amp; Technologies</h4>
+                  <div class="tag-row"><span>Data engineering</span><span>ETL</span><span>Data quality</span></div>
+                </div>
+              </details>
+              <details class="experience-entry">
+                <summary>
+                  <span class="experience-node" aria-hidden="true"></span>
+                  <span class="company-mark company-logo company-logo-ecsga" aria-hidden="true"><img src="assets/experience/ecsga-logo.png" alt="" /></span>
+                  <span class="experience-title">
+                    <strong>Vice President – External</strong>
+                    <span class="experience-meta">
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"></path></svg>ECSGA</span>
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Montreal, Canada</span>
+                      <time><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>Jun 2025 – May 2026</time>
+                    </span>
+                  </span>
+                  <span class="experience-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="experience-intro">Serving as Vice-President External of the Engineering and Computer Science Graduate Association (ECSGA) at Concordia University, contributing to initiatives that strengthen graduate student engagement, community building, and external relations. Supporting the planning and coordination of events, activities, and excursions designed to create meaningful networking opportunities and enhance the overall graduate student experience.</span>
+                </summary>
+                <div class="experience-details">
+                  <p>Collaborating with fellow executive members, university stakeholders, student organizations, and external partners to foster strong professional relationships and promote opportunities that support students’ academic, professional, and personal development. Through this leadership role, I focus on effective communication, collaboration, stakeholder engagement, and delivering initiatives that create lasting value for the Engineering and Computer Science graduate community.</p>
+                  <h4>Skills &amp; Technologies</h4>
+                  <div class="tag-row"><span>Leadership</span><span>Stakeholder Management</span><span>Event Planning</span><span>Communication</span><span>Community Engagement</span><span>French</span></div>
+                </div>
+              </details>
+              <details class="experience-entry">
+                <summary>
+                  <span class="experience-node" aria-hidden="true"></span>
+                  <span class="company-mark company-logo company-logo-cognizant" aria-hidden="true"><img src="assets/experience/cognizant-logo.webp" alt="" /></span>
+                  <span class="experience-title">
+                    <strong>Data Scientist</strong>
+                    <span class="experience-meta">
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"></path></svg>Cognizant Technology Solutions</span>
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Hyderabad, India</span>
+                      <time><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>Nov 2023 – Dec 2024</time>
+                    </span>
+                  </span>
+                  <span class="experience-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="experience-intro">Developed and deployed end-to-end machine learning solutions on AWS to support predictive analytics and data-driven decision-making. Performed data ingestion, preprocessing, exploratory data analysis (EDA), feature engineering, statistical analysis, model development, evaluation, and deployment across large analytical datasets.</span>
+                </summary>
+                <div class="experience-details">
+                  <p>Built and evaluated regression and classification models using Python, scikit-learn, XGBoost, and LightGBM, applying appropriate model-evaluation techniques to assess performance and improve predictive accuracy. Leveraged Amazon SageMaker, SageMaker Studio, and SageMaker Autopilot for model development, experimentation, rapid prototyping, and machine learning workflow automation.</p>
+                  <p>Processed and prepared data using Amazon S3, AWS Glue, and Amazon Athena, while utilizing pandas, NumPy, Matplotlib, and Statsmodels for data manipulation, statistical analysis, and visualization. Supported scalable model deployment and inference using Amazon SageMaker endpoints, AWS Lambda, and Amazon EC2, and implemented monitoring and logging through Amazon CloudWatch to track model and application performance.</p>
+                  <p>Created analytical dashboards and data visualizations using Amazon QuickSight to communicate model outputs, trends, and actionable insights to technical and business stakeholders.</p>
+                  <h4>Skills &amp; Technologies</h4>
+                  <div class="tag-row"><span>Machine Learning</span><span>Data Science</span><span>Python</span><span>Amazon Web Services (AWS)</span><span>SQL</span><span>scikit-learn</span><span>XGBoost</span><span>pandas</span><span>NumPy</span><span>Statistical Data Analysis</span><span>Exploratory Data Analysis (EDA)</span><span>Feature Engineering</span><span>Predictive Modeling</span><span>Model Deployment</span></div>
+                </div>
+              </details>
+              <details class="experience-entry">
+                <summary>
+                  <span class="experience-node" aria-hidden="true"></span>
+                  <span class="company-mark company-logo company-logo-cognizant" aria-hidden="true"><img src="assets/experience/cognizant-logo.webp" alt="" /></span>
+                  <span class="experience-title">
+                    <strong>Associate Data Engineer</strong>
+                    <span class="experience-meta">
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"></path></svg>Cognizant Technology Solutions</span>
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Hyderabad, India</span>
+                      <time><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>Oct 2022 – Nov 2023</time>
+                    </span>
+                  </span>
+                  <span class="experience-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="experience-intro">Designed, developed, and maintained scalable end-to-end data engineering solutions on Microsoft Azure, supporting the ingestion, processing, transformation, and delivery of structured, semi-structured, and unstructured data for analytics and business intelligence workloads.</span>
+                </summary>
+                <div class="experience-details">
+                  <p>Built batch and near-real-time data pipelines using Azure Data Factory, Azure Event Hubs, Azure Databricks, Apache Spark, PySpark, and Scala. Designed and optimized data warehouse solutions in Azure Synapse Analytics and implemented ELT workflows using Azure Data Lake Storage Gen2 and Synapse SQL to support enterprise-scale analytics and reporting.</p>
+                  <p>Automated data orchestration through Azure Data Factory triggers, scheduling, and workflow dependencies, while working with Azure SQL Database and Azure Cosmos DB for transactional and low-latency data storage requirements.</p>
+                  <p>Implemented secure data-access practices using Microsoft Entra ID (Azure AD), Azure Key Vault, and Role-Based Access Control (RBAC). Delivered clean, validated, and well-documented datasets to analytics teams for reporting and visualization using Power BI and Tableau.</p>
+                  <p>Developed containerized Spark workloads using Docker and contributed to CI/CD pipelines with Jenkins and GitHub, supporting automated deployments, version control, and cross-functional collaboration within data engineering teams.</p>
+                  <h4>Skills &amp; Technologies</h4>
+                  <div class="tag-row"><span>Data Engineering</span><span>Extract, Transform, Load (ETL)</span><span>Apache Spark</span><span>PySpark</span><span>SQL</span><span>Python</span><span>Microsoft Azure</span><span>Data Warehousing</span><span>Data Pipelines</span><span>Apache Airflow</span><span>CI/CD</span><span>Docker</span><span>Power BI</span><span>GitHub</span><span>Jenkins</span></div>
+                </div>
+              </details>
+              <details class="experience-entry">
+                <summary>
+                  <span class="experience-node" aria-hidden="true"></span>
+                  <span class="company-mark company-logo company-logo-cognizant" aria-hidden="true"><img src="assets/experience/cognizant-logo.webp" alt="" /></span>
+                  <span class="experience-title">
+                    <strong>Data Engineer Intern</strong>
+                    <span class="experience-meta">
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"></path></svg>Cognizant Technology Solutions</span>
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Hyderabad, India</span>
+                      <time><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>Apr 2022 – Aug 2022</time>
+                    </span>
+                  </span>
+                  <span class="experience-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="experience-intro">Contributed to the development of end-to-end data engineering and ETL solutions on Microsoft Azure using Azure Data Factory, Azure Databricks, Apache Spark, PySpark, Azure Data Lake Storage Gen2, Azure SQL Database, and Azure Synapse Analytics. Supported data ingestion, transformation, validation, preprocessing, and analytics workflows for structured and semi-structured datasets using Python, pandas, and SQL. Integrated Azure Event Hubs for near-real-time data ingestion, developed Power BI dashboards for reporting, and collaborated with senior data engineers to monitor and troubleshoot pipelines using Azure Monitor. Used GitHub for version control and worked within Agile/Scrum environments using Jira.</span>
+                </summary>
+                <div class="experience-details">
+                  <h4>Skills &amp; Technologies</h4>
+                  <div class="tag-row"><span>Data Engineering</span><span>Microsoft Azure</span><span>PySpark</span><span>Apache Spark</span><span>Apache Airflow</span><span>SQL</span><span>Python (Programming Language)</span><span>Power BI</span><span>GitHub</span><span>Jira</span></div>
+                </div>
+              </details>
+              <details class="experience-entry">
+                <summary>
+                  <span class="experience-node" aria-hidden="true"></span>
+                  <span class="company-mark company-logo company-logo-robotics" aria-hidden="true"><img src="assets/experience/robotics-club-logo.webp" alt="" /></span>
+                  <span class="experience-title">
+                    <strong>Robotics Researcher</strong>
+                    <span class="experience-meta">
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"></path></svg>The Robotics Club-SNIST</span>
+                      <span><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Hyderabad, India</span>
+                      <time><svg class="experience-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>Aug 2018 – Jun 2022</time>
+                    </span>
+                  </span>
+                  <span class="experience-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                  <span class="experience-intro">Worked on multidisciplinary research and development projects spanning robotics, embedded systems, artificial intelligence, deep learning, computer vision, and intelligent automation. Contributed to the design, development, prototyping, testing, and documentation of hardware- and software-based systems, collaborating with team members to transform engineering concepts into functional prototypes and research outcomes.</span>
+                </summary>
+                <div class="experience-details">
+                  <p>Designed and developed CHAUSER, a smart automated footwear-handling and contactless assistance prototype incorporating microcontrollers, IR and ultrasonic sensors, motor-control systems, mechanical mechanisms, CAD modelling, circuit planning, and IoT concepts. Contributed to system architecture, prototype development, technical documentation, and design-patent-related work. The project received a Bronze Award at the E-NNOVATE Virtual Innovation Fair 2020.</p>
+                  <p>Developed a real-time facial emotion recognition and emoji generation system using Python, TensorFlow, Keras, OpenCV, and Convolutional Neural Networks (CNNs). Trained the model using the FER2013 dataset and integrated it with real-time webcam-based facial detection and emotion classification. The project resulted in a research publication in the International Research Journal of Modernization in Engineering Technology and Science (IRJMETS) in March 2022.</p>
+                  <p>Developed a deep learning-based multimodal medical image analysis system combining CT and MRI image fusion with CNN-based brain-image classification and YOLOv2-based tumor localization. Applied computer vision, medical image processing, model training, and performance evaluation techniques using MATLAB.</p>
+                  <p>Strengthened practical experience in robotics research, prototyping, embedded system development, machine learning, deep learning, computer vision, image processing, technical documentation, and collaborative engineering research.</p>
+                  <h4>Skills &amp; Technologies</h4>
+                  <div class="tag-row"><span>Robotics</span><span>Deep Learning</span><span>Computer Vision</span><span>Embedded Systems</span><span>Convolutional Neural Networks (CNN)</span><span>Python</span><span>TensorFlow</span><span>Image Processing</span><span>Internet of Things (IoT)</span><span>OpenCV</span></div>
+                </div>
+              </details>
             </div>
           </div>
 
-          <div>
-            <p class="section-tag">Interests</p>
-            <h2>Driven by continuous growth</h2>
-            <div class="pill-list large-pills">
-              <span>Cricket</span>
-              <span>Volleyball</span>
-              <span>Programming in Python</span>
+          <div class="resume-panel" id="education-panel" role="tabpanel" aria-labelledby="education-tab" hidden>
+            <div class="qualification-layout qualification-layout-expanded">
+              <section class="education-section" aria-labelledby="education-heading">
+                <p class="qualification-label" id="education-heading">Education</p>
+                <div class="education-timeline">
+                  <details class="education-item">
+                    <summary>
+                      <span class="education-node" aria-hidden="true"></span>
+                      <span class="education-summary-copy">
+                        <span class="education-degree">Master of Engineering, Electrical &amp; Computer Engineering</span>
+                        <span class="education-meta">
+                          <span><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m2 10 10-5 10 5-10 5z"></path><path d="M6 12v5c3.33 2.67 8.67 2.67 12 0v-5M22 10v6"></path></svg>Concordia University</span>
+                          <span><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Montreal, Canada</span>
+                          <time><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>2025 – 2027</time>
+                        </span>
+                      </span>
+                      <span class="education-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></span>
+                      <span class="education-intro">Graduate studies in Electrical &amp; Computer Engineering.</span>
+                    </summary>
+                    <div class="education-details">
+                      <section class="education-detail-group"><h4>Achievements</h4><ul><li>CGPA: 3.58/4.3</li><li>Institute for Co-operative Education</li></ul></section>
+                      <section class="education-detail-group">
+                        <h4>Key Courses</h4>
+                        <ul class="education-courses" role="list"><li>Medical Image Processing</li><li>Programming on Cloud</li><li>Software Engineering</li><li>Machine Learning</li><li>Software Testing and Validation</li><li>Distributed Software Systems</li></ul>
+                      </section>
+                    </div>
+                  </details>
+                  <details class="education-item">
+                    <summary>
+                      <span class="education-node" aria-hidden="true"></span>
+                      <span class="education-summary-copy">
+                        <span class="education-degree">Bachelor of Technology, Electronics &amp; Communication Engineering</span>
+                        <span class="education-meta">
+                          <span><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m2 10 10-5 10 5-10 5z"></path><path d="M6 12v5c3.33 2.67 8.67 2.67 12 0v-5M22 10v6"></path></svg>Sreenidhi Institute of Science and Technology</span>
+                          <span><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Hyderabad, India</span>
+                          <time><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>2018 – 2022</time>
+                        </span>
+                      </span>
+                      <span class="education-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></span>
+                      <span class="education-intro">Undergraduate studies in Electronics &amp; Communication Engineering.</span>
+                    </summary>
+                    <div class="education-details">
+                      <section class="education-detail-group"><h4>Achievements</h4><ul><li>GPA: 8.68/10</li><li>First Class with Distinction</li></ul></section>
+                      <section class="education-detail-group">
+                        <h4>Key Courses</h4>
+                        <ul class="education-courses" role="list"><li>Java</li><li>C++</li><li>C (Programming Language)</li><li>Machine Learning</li><li>Python (Programming Language)</li><li>HTML</li><li>Internet of Things (IoT)</li></ul>
+                      </section>
+                    </div>
+                  </details>
+                  <details class="education-item">
+                    <summary>
+                      <span class="education-node" aria-hidden="true"></span>
+                      <span class="education-summary-copy">
+                        <span class="education-degree">Intermediate (MPC)</span>
+                        <span class="education-meta">
+                          <span><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m2 10 10-5 10 5-10 5z"></path><path d="M6 12v5c3.33 2.67 8.67 2.67 12 0v-5M22 10v6"></path></svg>Saichaitanya Junior College</span>
+                          <span><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>Hyderabad, India</span>
+                          <time><svg class="education-meta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 11h18"></path></svg>Jun 2016 – Mar 2018</time>
+                        </span>
+                      </span>
+                      <span class="education-toggle" aria-hidden="true"><span class="show-more">Show More</span><span class="show-less">Show Less</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></span>
+                      <span class="education-intro">Pre-university study in Mathematics, Physics &amp; Chemistry.</span>
+                    </summary>
+                    <div class="education-details">
+                      <section class="education-detail-group"><h4>Achievements</h4><ul><li>Grade: 976/1000</li></ul></section>
+                      <section class="education-detail-group">
+                        <h4>Key Courses</h4>
+                        <ul class="education-courses" role="list"><li>Mathematics</li><li>Physics</li><li>Chemistry</li></ul>
+                      </section>
+                    </div>
+                  </details>
+                </div>
+              </section>
+              <section class="certifications-section" aria-labelledby="credentials-heading">
+                <p class="qualification-label" id="credentials-heading">Professional Certifications</p>
+                <div class="certification-badge-grid">
+                  <button class="certification-badge-card" type="button" data-certification-title="Microsoft Certified: Azure Fundamentals" data-certification-issuer="Microsoft" data-certification-issued="June 21, 2026" data-certification-expires="Does not expire" data-certification-id="2F7DA11D91A18B81" data-badge-image="assets/certifications/azure-fundamentals.png" data-certificate-preview="assets/certificates/azure-fundamentals-preview.png" data-certificate-name="Microsoft Certified: Azure Fundamentals certificate" aria-haspopup="dialog" aria-controls="certification-dialog">
+                    <span class="credential-badge" aria-hidden="true"><img src="assets/certifications/azure-fundamentals.png" alt="" /></span><span class="certification-card-copy"><strong>Microsoft Certified: Azure Fundamentals</strong><span>Microsoft</span></span>
+                  </button>
+                  <button class="certification-badge-card" type="button" data-certification-title="Microsoft Certified: Azure Data Fundamentals" data-certification-issuer="Microsoft" data-certification-issued="July 25, 2026" data-certification-expires="Does not expire" data-certification-id="B3AB25927D995D5B" data-badge-image="assets/certifications/azure-data-fundamentals.png" data-certificate-preview="assets/certificates/azure-data-fundamentals-preview.png" data-certificate-name="Microsoft Certified: Azure Data Fundamentals certificate" aria-haspopup="dialog" aria-controls="certification-dialog">
+                    <span class="credential-badge" aria-hidden="true"><img src="assets/certifications/azure-data-fundamentals.png" alt="" /></span><span class="certification-card-copy"><strong>Microsoft Certified: Azure Data Fundamentals</strong><span>Microsoft</span></span>
+                  </button>
+                  <button class="certification-badge-card" type="button" data-certification-title="Microsoft Certified: Fabric Analytics Engineer Associate" data-certification-issuer="Microsoft" data-certification-issued="August 21, 2026" data-certification-expires="August 22, 2027" data-certification-id="1BC08912DE93EC2C" data-badge-image="assets/certifications/fabric-analytics-engineer.png" data-certificate-preview="assets/certificates/fabric-analytics-engineer-preview.png" data-certificate-name="Microsoft Certified: Fabric Analytics Engineer Associate certificate" aria-haspopup="dialog" aria-controls="certification-dialog">
+                    <span class="credential-badge" aria-hidden="true"><img src="assets/certifications/fabric-analytics-engineer.png" alt="" /></span><span class="certification-card-copy"><strong>Microsoft Certified: Fabric Analytics Engineer Associate</strong><span>Microsoft</span></span>
+                  </button>
+                  <button class="certification-badge-card" type="button" data-certification-title="NPTEL: Programming in Java" data-certification-issuer="NPTEL · Indian Institute of Technology Kharagpur" data-certification-expires="Does not expire" data-certification-id-label="Roll number" data-certification-id="NPTEL19CS84S41470038" data-badge-image="assets/certifications/nptel-logo.jpeg" data-certificate-preview="assets/certificates/nptel-programming-in-java.jpeg" data-certificate-name="NPTEL Programming in Java Elite certificate" aria-haspopup="dialog" aria-controls="certification-dialog">
+                    <span class="credential-badge" aria-hidden="true"><img src="assets/certifications/nptel-logo.jpeg" alt="" /></span><span class="certification-card-copy"><strong>NPTEL: Programming in Java</strong><span>NPTEL</span></span>
+                  </button>
+                </div>
+              </section>
+              <section class="recognition-section" aria-labelledby="recognition-heading">
+                <p class="qualification-label" id="recognition-heading">Recognition</p>
+                <div class="recognition-badge-grid">
+                  <button class="recognition-badge-card" id="recognition-card" type="button" data-certificate-preview="assets/certificates/chauser-bronze-award-preview.png" data-certificate-name="CHAUSER Bronze Award certificate from the E-NNOVATE Virtual Innovation Fair 2020" aria-haspopup="dialog" aria-controls="recognition-dialog">
+                    <span class="credential-badge" aria-hidden="true"><img src="assets/certifications/e-nnovate-logo.png" alt="" /></span><span class="certification-card-copy"><strong>Bronze Award</strong><span>E-NNOVATE Virtual Innovation Fair</span></span>
+                  </button>
+                </div>
+              </section>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="site-shell contact-layout">
+          <div class="contact-copy" data-reveal="left">
+            <h2 id="contact-title">Let’s build something meaningful.</h2>
+            <div class="contact-actions">
+              <div class="contact-details"><div><small>Focused on</small><strong>Data · Cloud · AI</strong></div></div>
+              <a class="github-button" href="https://github.com/VINAY163581" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.4-1.1.7-1.3-2.2-.2-4.5-1.1-4.5-4.9 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.8 1.1a9.5 9.5 0 0 1 5 0c1.9-1.3 2.8-1.1 2.8-1.1.5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.3 4.7-4.5 4.9.4.3.7.9.7 1.8V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"></path></svg>Visit GitHub <span>↗</span></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" data-reveal="right">
+            <div class="form-title"><span class="status-dot"></span><strong>Start a conversation</strong></div>
+            <label>Your name<input name="name" type="text" autocomplete="name" placeholder="Jane Smith" required /></label>
+            <label>Email address<input name="email" type="email" autocomplete="email" placeholder="jane@company.com" required /></label>
+            <label>How can I help?<textarea name="message" rows="4" placeholder="Tell me a little about the opportunity..." required></textarea></label>
+            <!-- Spam honeypot: hidden from people, tempting to bots. A filled botcheck field makes Web3Forms reject the submission. -->
+            <input class="form-honeypot" name="botcheck" type="checkbox" tabindex="-1" aria-hidden="true" />
+            <button class="button button-primary" type="submit">Send message <span aria-hidden="true">→</span></button>
+            <p class="form-note" id="form-note" aria-live="polite">Your message goes straight to my inbox. I usually reply within a day or two.</p>
+          </form>
         </div>
       </section>
     </main>
 
-    <footer id="contact" class="site-footer">
-      <div class="container footer-wrap">
-        <div>
-          <p class="section-tag">Let’s Connect</p>
-          <h2>Open to full-time opportunities in data science, data engineering, and AI.</h2>
-        </div>
-
-        <div class="contact-card">
-          <p><strong>Location:</strong> Montreal, QC</p>
-          <p><strong>Focus:</strong> Data Science • Data Engineering • Machine Learning</p>
-          <p><strong>Availability:</strong> Full-time roles</p>
+    <dialog class="certification-dialog" id="certification-dialog" aria-labelledby="certification-dialog-title">
+      <button class="certification-dialog-close" id="certification-dialog-close" type="button" aria-label="Close certification details">×</button>
+      <div class="certification-dialog-layout">
+        <span class="credential-badge certification-dialog-badge" id="certification-dialog-badge" aria-hidden="true"><img id="certification-dialog-badge-image" src="assets/certifications/azure-fundamentals.png" alt="" /></span>
+        <div class="certification-dialog-copy">
+          <h2 id="certification-dialog-title">Certification</h2>
+          <p class="certification-dialog-issuer" id="certification-dialog-issuer"></p>
+          <dl class="certification-dialog-meta">
+            <div><dt id="certification-dialog-id-label">Credential ID:</dt><dd id="certification-dialog-id"></dd></div>
+            <div id="certification-dialog-issued-row"><dt>Issued:</dt><dd id="certification-dialog-issued"></dd></div>
+            <div><dt>Expires:</dt><dd id="certification-dialog-expires"></dd></div>
+          </dl>
         </div>
       </div>
-      <div class="container footer-bottom">
-        <p>© <span id="year"></span> Vinay Kumar Reddy Thangella. All rights reserved.</p>
+      <div class="certificate-document" data-certificate-viewer>
+        <button type="button" class="button button-primary certificate-toggle" aria-expanded="false" aria-controls="certification-preview">Show certificate</button>
+        <div class="certificate-preview" id="certification-preview" hidden>
+          <img class="certificate-document-image" alt="" />
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="certification-dialog recognition-dialog" id="recognition-dialog" aria-labelledby="recognition-dialog-title">
+      <button class="certification-dialog-close" id="recognition-dialog-close" type="button" aria-label="Close recognition details">×</button>
+      <div class="certification-dialog-layout">
+        <span class="credential-badge recognition-dialog-badge" aria-hidden="true"><img src="assets/certifications/e-nnovate-logo.png" alt="" /></span>
+        <div class="certification-dialog-copy">
+          <h2 id="recognition-dialog-title">Bronze Award</h2>
+          <p class="certification-dialog-issuer">E-NNOVATE Virtual Innovation Fair</p>
+          <dl class="certification-dialog-meta"><div><dt>Project:</dt><dd>CHAUSER</dd></div><div><dt>Event dates:</dt><dd>July 6–8, 2020</dd></div></dl>
+        </div>
+      </div>
+      <div class="certificate-document" data-certificate-viewer>
+        <button type="button" class="button button-primary certificate-toggle" aria-expanded="false" aria-controls="recognition-preview">Show certificate</button>
+        <div class="certificate-preview" id="recognition-preview" hidden>
+          <img class="certificate-document-image" alt="" />
+        </div>
+      </div>
+    </dialog>
+
+    <footer class="site-footer">
+      <div class="site-shell footer-inner">
+        <div><a class="brand" href="#home" aria-label="Vinay Kumar Reddy Thangella — back to top"><span class="brand-mark brand-mark-small" aria-hidden="true"><span class="brand-side">VKR</span><span class="brand-slash">//</span><span class="brand-side brand-side-last">T</span><i></i></span></a><p>Building at the intersection of Data, Cloud, and AI.</p></div>
+        <div class="footer-links"><nav aria-label="Footer navigation"><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#portfolio">Projects</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav><span>© <span id="year"></span> Vinay Kumar Reddy Thangella</span></div>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=robot-motion-3"></script>
   </body>
 </html>
