@@ -13,3 +13,6 @@ assets/vinay-kumar-reddy-professional-portrait.prompt.txt
 
 # Unused high-resolution original; the site loads the .jpeg version
 assets/vinay-kumar-reddy-professional-portrait.png
+
+# Resume source and PDF — kept locally, not published with the site
+/resume/

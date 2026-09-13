@@ -239,7 +239,7 @@
       if (certificationDialogId) certificationDialogId.textContent = button.dataset.certificationId || "—";
       if (certificationDialogIdLabel) certificationDialogIdLabel.textContent = `${button.dataset.certificationIdLabel || "Credential ID"}:`;
       if (certificationDialogBadgeImage) {
-        certificationDialogBadgeImage.src = button.dataset.badgeImage || "assets/certifications/azure-fundamentals.png";
+        certificationDialogBadgeImage.src = button.dataset.badgeImage || "assets/certifications_logos/azure-fundamentals.png";
       }
 
       certificationViewer.prepare(button);
